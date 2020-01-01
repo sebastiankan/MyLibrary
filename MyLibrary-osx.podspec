@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = '${POD_NAME}'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ${POD_NAME}.'
+  s.name             = 'MyLibrary'
+  s.version          = '0.2.0'
+  s.summary          = 'A short description of MyLibrary.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,20 +21,20 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/${USER_NAME}/${POD_NAME}'
+  s.homepage         = 'https://github.com/sebastiankan/MyLibrary'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '${USER_NAME}' => '${USER_EMAIL}' }
-  s.source           = { :git => 'https://github.com/${USER_NAME}/${POD_NAME}.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/sebastiankan/MyLibrary.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform = :osx
   s.osx.deployment_target = "10.10"
 
-  s.source_files = '${POD_NAME}/Classes/**/*'
+  s.source_files = 'MyLibrary/Classes/**/*'
 
   # s.resource_bundles = {
-  #   '${POD_NAME}' => ['${POD_NAME}/Assets/*.png']
+  #   'MyLibrary' => ['MyLibrary/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
