@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.platform = :osx
   s.osx.deployment_target = "10.10"
 
-  s.source_files = 'Pod/Classes/**/*'
+  # s.source_files = 'Pod/Classes/**/*'
 
   # s.resource_bundles = {
   #   'MyLibrary' => ['Pod/Assets/*.png']
